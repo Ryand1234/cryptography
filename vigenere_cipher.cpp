@@ -11,7 +11,7 @@ int normalise(int value, int method)
 		if(method == 0)
 	 		normalisedValue += 65;
 		else {
-			normalisedValue = 123 + normalisedValue - 65;
+			normalisedValue = 58 + normalisedValue;
 		}
 	}
 	return normalisedValue;
